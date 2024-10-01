@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
+    <title>SignUp Page</title>
     <style>
       body {
         background-image: url(./img/bryan-goff-f7YQo-eYHdM-unsplash\ \(1\).jpg);
@@ -12,7 +12,7 @@
         background-attachment: fixed;
       }
     </style>
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/signup.css" />
   </head>
   <body>
     <header>
@@ -27,7 +27,16 @@
       <div class="card1">
         <div class="card2">
           <form class="form">
-            <p class="heading">Login</p>
+            <p class="heading">SignUp</p>
+            <div class="field">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Name"
+                autocomplete="off"
+                required
+              />
+            </div>
             <div class="field">
               <input
                 type="email"
@@ -46,17 +55,27 @@
                 required
               />
             </div>
+            <div class="field">
+              <input
+                type="password"
+                class="input-field"
+                placeholder="Confirm Password"
+                autocomplete="off"
+                required
+              />
+            </div>
             <div class="btn">
-              <button class="button1">Login</button>
+              <button class="button1">SignUp</button>
+
               <p class="txt">or</p>
+
               <script>
                 function visit() {
-                  window.open("signup.html", "_self");
+                  window.open("login.html", "_self");
                 }
               </script>
-              <button class="button2" onclick="visit()">SignUp</button>
+              <button class="button2" onclick="visit()">Login</button>
             </div>
-            <button class="button3">Forget Password</button>
           </form>
         </div>
       </div>

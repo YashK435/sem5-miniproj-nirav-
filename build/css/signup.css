@@ -80,12 +80,20 @@ h1:hover {
   color: #d3d3d3;
 }
 
-.form .btn {
+.btn {
+  flex-basis: 1;
+  align-items: center;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
+
+/* .form .btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+} */
 
 .button1 {
   font-size: large;
@@ -110,7 +118,7 @@ h1:hover {
 .button2 {
   font-size: large;
   width: 50%;
-  margin-left: 8px;
+  margin-right: 0.5em;
   padding: 0.5em;
   padding-left: 1.3em;
   padding-right: 1.3em;
@@ -127,23 +135,6 @@ h1:hover {
   color: white;
 }
 
-.button3 {
-  font-size: large;
-  margin-bottom: 3em;
-  padding: 0.5em;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  transition: 0.4s ease-in-out;
-  background-color: #252525;
-  color: white;
-}
-
-.button3:hover {
-  background-color: #3f3181;
-  color: white;
-}
-
 .heading {
   text-align: center;
   margin: 2vw vh;
@@ -153,4 +144,6 @@ h1:hover {
 
 .txt {
   color: white;
+  margin-right: 4px;
+  font-size: large;
 }
