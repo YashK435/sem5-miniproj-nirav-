@@ -40,8 +40,13 @@ h1:hover {
   margin-right: 10px;
   color: white;
   background-color: rgba(116, 65, 227, 0.501);
+  border:transparent;
 }
-
+.btn:hover{
+  background-color: rgba(116, 65, 227, 0.632);
+  box-shadow: 0 0 10px 1px #fff;
+  font-weight: bold;
+}
 header,
 form {
   min-height: 20vh;
