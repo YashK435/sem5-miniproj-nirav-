@@ -1,11 +1,44 @@
-body {
-  background: #8c52ff;
+.all {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+  background-color: rgba(116, 65, 227, 0.501);
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(59 130 246);
+}
+
+h1:hover {
+  color: rgb(96 165 250);
 }
 
 #weather-container {
