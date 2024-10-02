@@ -1,7 +1,8 @@
 .all {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  padding-top: 30px;
   justify-content: center;
   height: 100vh;
   margin: 0;
@@ -43,15 +44,17 @@ h1:hover {
 
 #weather-container {
   background: rgba(255, 255, 255, 0.3);
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 550px;
   max-width: 400px;
-  padding: 20px;
+  max-height: 550px;
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
-
 h2,
 label,
 p {
@@ -94,8 +97,8 @@ button:hover {
 }
 
 #weather-icon {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto 10px;
   margin-bottom: 0;
   display: none;
@@ -117,6 +120,8 @@ button:hover {
   align-items: center;
   margin-right: 10px;
   color: white;
+  padding-left:7px;
+  padding-right:7px;
 }
 
 .hourly-item img {

@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
-    <style>
-      body {
-        background-image: url("./img/bryan-goff-f7YQo-eYHdM-unsplash (1).jpg");
-      }
-    </style>
-    <link rel="stylesheet" href="css/weather.css" />
-    <style>
-      body {
-        background-image: url("./img/background.jpg");
-      }
-    </style>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <style>
+    body {
+      background-image: url("img/background.jpg");
+    }
+  </style>
+  <link rel="stylesheet" href="css/weather.css" />
+</head>
+
+<body>
+  <header>
+    <img src="img/prodash-logo.png" width="80vw" height="80vh" />
+    <h1>Prodash</h1>
+
+    <button class="btn">Name</button>
+  </header>
+  <div class="all">
     <div id="weather-container">
       <h2>Weather App</h2>
       <input type="text" id="city" placeholder="Enter city" />
@@ -31,5 +35,7 @@
       <div id="hourly-forecast"></div>
     </div>
     <script src="js/weather.js"></script>
-  </body>
+  </div>
+</body>
+
 </html>
