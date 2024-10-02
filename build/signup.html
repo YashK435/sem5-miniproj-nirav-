@@ -65,12 +65,16 @@
               />
             </div>
             <div class="btn">
-              <button class="button1">SignUp</button>
+              <button class="button1" onclick="visit2()">SignUp</button>
 
               <p class="txt">or</p>
 
               <script>
                 function visit() {
+                  window.open("login.html", "_self");
+                }
+                function visit2() {
+                  alert("Successfully Signed-UP!!");
                   window.open("login.html", "_self");
                 }
               </script>
