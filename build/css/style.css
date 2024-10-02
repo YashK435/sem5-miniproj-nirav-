@@ -626,12 +626,32 @@ video {
   width: 50vw;
 }
 
-.w-full {
-  width: 100%;
+.w-\[40vw\] {
+  width: 40vw;
 }
 
-.w-screen {
-  width: 100vw;
+.w-\[30vw\] {
+  width: 30vw;
+}
+
+.w-\[33vw\] {
+  width: 33vw;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-\[45vw\] {
+  width: 45vw;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.max-w-32 {
+  max-width: 8rem;
 }
 
 .flex-col {

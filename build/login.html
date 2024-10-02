@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background-image: url(./img/bryan-goff-f7YQo-eYHdM-unsplash\ \(1\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/Screenshot_2024-09-28_095349-removebg-preview.png"
+        width="80vw"
+        height="80vh"
+      />
+      <h1>Prodash</h1>
+    </header>
+    <div class="all">
+      <div class="card1">
+        <div class="card2">
+          <form class="form">
+            <p class="heading">Login</p>
+            <div class="field">
+              <input
+                type="email"
+                class="input-field"
+                placeholder="Email"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="field">
+              <input
+                type="password"
+                class="input-field"
+                placeholder="Password"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="btn">
+              <button class="button1">Login</button>
+              <p class="txt">or</p>
+              <script>
+                function visit() {
+                  window.open("signup.html", "_self");
+                }
+              </script>
+              <button class="button2" onclick="visit()">SignUp</button>
+            </div>
+            <button class="button3">Forget Password</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
