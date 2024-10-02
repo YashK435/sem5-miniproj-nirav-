@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes-Prodash</title>
+    <title>ProDash-Notes</title>
     <link rel="stylesheet" href="css/Notes.css">
 </head>
 <body>
-    <header>
-        <img
-          src="img/prodash-logo.png"
-          width="80vw"
-          height="80vh"
-        />
-        <h1>Prodash</h1>
-  
-        <button class="btn">Name</button>
-      </header>
+    <div class="nav">
+        <header>
+            <div class="heading-container">
+                <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
+                <h1><a href="home.html">Prodash</a></h1>
+            </div>
+            <div class="hbtn-div">
+                <button class="navbar-btn" onclick="visit1()"><a href="weather.html">weather</a></button>
+                <button class="navbar-btn" onclick="visit2()"><a href="todo.html">To-Do</a></button>
+                <button class="navbar-btn" onclick="visit3()"><a href="drawing-board.html">Draw</a></button>
+                <button class="navbar-btn" >User</button>
+            </div>
+        </header>
+    </div>
   <h2>Notes </h2>
     <div class="container">
         
@@ -27,7 +31,17 @@
         </div>
         <div class="notes-container" id="notes-container"></div>
     </div>
-    
+    <script>
+        function visit1() {
+            window.open("weather.html", "_self");
+          }
+          function visit2() {
+            window.open("todo.html", "_self");
+          }
+          function visit3() {
+            window.open("drawing-board.html", "_self");
+          }
+    </script>
     <script src="js/Notes.js"></script>
 </body>
 </html>

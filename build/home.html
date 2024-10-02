@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrollable Animation</title>
+    <title>ProDash-Homepage</title>
     <style>
-        .headerPage{
-            background-image: url('./img/home-bg.jpg'); /* Path to your image */
-            background-size: cover; /* Cover the entire div */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent repeating */
-            height: 500px; /* Adjust height of the div */
-            width: 100%; /* Ensure div takes up the full width */
+        .headerPage {
+            background-image: url('./img/home-bg.jpg');
+            /* Path to your image */
+            background-size: cover;
+            /* Cover the entire div */
+            background-position: center;
+            /* Center the background image */
+            background-repeat: no-repeat;
+            /* Prevent repeating */
+            height: 500px;
+            /* Adjust height of the div */
+            width: 100%;
+            /* Ensure div takes up the full width */
 
         }
     </style>
     <link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
 
-        <div class="headerPage" style="background-image: url('./img/home-bg.jpg');" >
-        
-            <div class="nav"> 
-                <header>
-                    <img
-                    src="./img/prodash-logo.png"
-                    width="80vw"
-                    height="80vh"
-                    />
-                    <h1>Prodash</h1>
+    <div class="headerPage" style="background-image: url('./img/home-bg.jpg');">
 
-                </header>
-                <div class="hbtn-div" >
-                    <button class="hbtn1">GitHub</button>
-                    <button class="hbtn2">User</button>
+        <div class="nav">
+            <header>
+                <div class="heading-container">
+                    <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
+                    <h1><a href="#">Prodash</a></h1>
                 </div>
-            </div>
+                <div class="hbtn-div">
+                    <button class="navbar-btn" onclick="visit1()"><a href="https://github.com/SAKATA-GINTOKI2003/sem5-miniproj">GitHub</a></button>
+                    <button class="navbar-btn" >User</button>
+                </div>
+            </header>
         </div>
+    </div>
 
 
 
     <div class="box">
         <div class="btxt">
             <div class="box-htxt">Drawing Board</div>
-            <div class="box-txt"> - Express your creativity with a versatile drawing canvas. Sketch, doodle, or brainstorm ideas freely! Customize brushes and colors for a personal touch.</div>
+            <div class="box-txt"> - Express your creativity with a versatile drawing canvas. Sketch, doodle, or
+                brainstorm ideas freely! Customize brushes and colors for a personal touch.</div>
             <div class="box-btn-div">
-                <button class="box-btn">Vision Board</button>
+                <button class="box-btn"><a href="drawing-board.html">Vision Board</a></button>
             </div>
         </div>
-        
+
         <div class="box-img1"></div>
     </div>
     <div class="box">
         <div class="box-img2"></div>
         <div class="btxt">
             <div class="box-htxt">Notes App</div>
-            <div class="box-txt"> - Capture your thoughts effortlessly. Organize notes, create checklists, and stay on top of your ideas! Sync across devices for easy access anywhere.</div>
+            <div class="box-txt"> - Capture your thoughts effortlessly. Organize notes, create checklists, and stay on
+                top of your ideas! Sync across devices for easy access anywhere.</div>
             <div class="box-btn-div">
-                <button class="box-btn">Create notes</button>
+                <button class="box-btn"><a href="Notes.html">Create notes</a></button>
             </div>
         </div>
-      
+
     </div>
     <div class="box">
         <div class="btxt">
             <div class="box-htxt">Weather Feature</div>
-            <div class="box-txt"> - Stay informed with real-time weather updates tailored to your location. Plan your day with confidence! Get alerts for severe weather and save your favorite locations.</div>
+            <div class="box-txt"> - Stay informed with real-time weather updates tailored to your location. Plan your
+                day with confidence! Get alerts for severe weather and save your favorite locations.</div>
             <div class="box-btn-div">
-                <button class="box-btn">Weather Feature</button>
+                <button class="box-btn"><a href="weather.html">Weather-Updates</a> </button>
             </div>
         </div>
         <div class="box-img3"></div>
@@ -76,9 +84,10 @@
         <div class="box-img4"></div>
         <div class="btxt">
             <div class="box-htxt">To-Do List</div>
-            <div class="box-txt"> - Manage tasks with ease. Prioritize, schedule, and check off your daily goals to stay productive! Set reminders and deadlines to keep you on track.</div>
+            <div class="box-txt"> - Manage tasks with ease. Prioritize, schedule, and check off your daily goals to stay
+                productive! Set reminders and deadlines to keep you on track.</div>
             <div class="box-btn-div">
-                <button class="box-btn">To-Do List</button>
+                <button class="box-btn"><a href="todo.html">To-Do List</a></button>
             </div>
         </div>
 
@@ -86,7 +95,7 @@
     <div class="box">
 
         <div class="btxt">
-            <div class="box-htxt" >Premium Features Comming Soon ....</div>
+            <div class="box-htxt">Premium Features Comming Soon ....</div>
             <div class="box-txt">Event Management </div>
             <div class="box-txt">Live Notification system </div>
             <div class="box-txt">Calorie Intake Tracker</div>
@@ -99,22 +108,36 @@
     <div class="footer">
         <div class="footer1">
             <h2>About Us</h2>
-            <p1>We are a group of three IT undergraduate students—Soham Patil, Nirav Savla, and Yash Kamble—working together to develop innovative solutions that bridge technology and creativity. Our goal is to leverage our skills in software development, problem-solving, and design to create meaningful and impactful applications. </p1>
-        
+            <p>We are a group of three IT undergraduate students—Soham Patil, Nirav Savla, and Yash Kamble—working
+                together to develop innovative solutions that bridge technology and creativity. Our goal is to leverage
+                our skills in software development, problem-solving, and design to create meaningful and impactful
+                applications. </p>
+
         </div>
         <div class="footer1">
             <h2>Our mission</h2>
-            <p1>We aim to build user-friendly and versatile tools that not only make everyday tasks easier but also inspire creativity and efficiency. Through our projects, we hope to gain practical experience, improve our technical expertise, and contribute valuable solutions to the tech community.</p1>
-        
+            <p>We aim to build user-friendly and versatile tools that not only make everyday tasks easier but also
+                inspire creativity and efficiency. Through our projects, we hope to gain practical experience, improve
+                our technical expertise, and contribute valuable solutions to the tech community.</p>
+
         </div>
         <div class="footer1">
             <h2>GitHub Repository:</h2>
-            <p1>Explore our projects, track our progress, and contribute to our work through our <a href="https://github.com/SAKATA-GINTOKI2003/sem5-miniproj" target="_blank">GitHub Repository</a>.. We are committed to maintaining open-source code, fostering collaboration, and continuously improving our application</p1>
-        
+            <p>Explore our projects, track our progress, and contribute to our work through our <a
+                    href="https://github.com/SAKATA-GINTOKI2003/sem5-miniproj" target="_blank">GitHub Repository</a>..
+                We are committed to maintaining open-source code, fostering collaboration, and continuously improving
+                our application</p>
+
         </div>
 
     </div>
 
     <script src="js/home.js"></script>
+    <script>
+        function visit1() {
+            window.open("https://github.com/SAKATA-GINTOKI2003/sem5-miniproj", "_self");
+        }
+    </script>
 </body>
+
 </html>

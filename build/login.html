@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
+    <title>ProDash-Login Page</title>
     <style>
       body {
         background-image: url("img/background.jpg");
@@ -47,19 +47,23 @@
               />
             </div>
             <div class="btn">
-              <button class="button1">Login</button>
+              <button class="button1" onclick="visit1()">Login</button>
               <p class="txt">or</p>
-              <script>
-                function visit() {
-                  window.open("signup.html", "_self");
-                }
-              </script>
-              <button class="button2" onclick="visit()">SignUp</button>
+              
+              <button class="button2" onclick="visit2()">SignUp</button>
             </div>
             <button class="button3">Forget Password</button>
           </form>
         </div>
       </div>
     </div>
+    <script>
+      function visit1() {
+        window.open("home.html", "_self");
+      }
+      function visit2() {
+        window.open("signup.html", "_self");
+      }
+    </script>
   </body>
 </html>

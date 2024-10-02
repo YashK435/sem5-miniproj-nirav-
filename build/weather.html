@@ -4,22 +4,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weather App</title>
+  <title>ProDash-Weather App</title>
   <style>
     body {
-      background-image: url("img/background.jpg");
+      background-image: url("img/weather-bg.jpg");
     }
   </style>
   <link rel="stylesheet" href="css/weather.css" />
 </head>
 
 <body>
-  <header>
-    <img src="img/prodash-logo.png" width="80vw" height="80vh" />
-    <h1>Prodash</h1>
-
-    <button class="btn">Name</button>
-  </header>
+  <div class="nav">
+    <header>
+        <div class="heading-container">
+            <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
+            <h1><a href="home.html">Prodash</a></h1>
+        </div>
+        <div class="hbtn-div">
+            <button class="navbar-btn" onclick="visit1()"><a href="drawing-board.html">Draw</a></button>
+            <button class="navbar-btn"  onclick="visit2()"><a href="todo.html">To-Do</a></button>
+            <button class="navbar-btn"  onclick="visit3()"><a href="Notes.html">Notes</a></button>
+            <button class="navbar-btn" >User</button>
+        </div>
+    </header>
+</div>
   <div class="all">
     <div id="weather-container">
       <h2>Weather App</h2>
@@ -36,6 +44,17 @@
     </div>
     <script src="js/weather.js"></script>
   </div>
+  <script>
+    function visit1() {
+        window.open("drawing-board.html", "_self");
+      }
+      function visit2() {
+        window.open("todo.html", "_self");
+      }
+      function visit3() {
+        window.open("notes.html", "_self");
+      }
+</script>
 </body>
 
 </html>

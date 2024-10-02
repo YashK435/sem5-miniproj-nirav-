@@ -2,22 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Drawing App JavaScript</title>
+    <title>ProDash-Draw</title>
     <link rel="stylesheet" href="css/drawing-board.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/drawing-board.js" defer></script>
+    <style>
+      body {
+        background-image: url("img/weather-bg.jpg");
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <img
-        src="img/prodash-logo.png"
-        width="80vw"
-        height="80vh"
-      />
-      <h1>Prodash</h1>
-
-      <button class="btn">Name</button>
-    </header>
+    <div class="nav">
+      <header>
+          <div class="heading-container">
+              <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
+              <h1><a href="home.html">Prodash</a></h1>
+          </div>
+          <div class="hbtn-div">
+              <button class="navbar-btn"><a href="weather.html">weather</a></button>
+              <button class="navbar-btn" ><a href="todo.html">To-Do</a></button>
+              <button class="navbar-btn" ><a href="Notes.html">Notes</a></button>
+              <button class="navbar-btn" >User</button>
+          </div>
+      </header>
+  </div>
+    
     <div class="container">
       
   

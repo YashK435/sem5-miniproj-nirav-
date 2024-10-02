@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap");
-
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: #fff2d2;
     font-family: "Roboto", sans-serif;
@@ -19,20 +17,39 @@ body {
     min-width: 100vw;
     
 }
-
-h1 {
-    margin: 20px;
-    font-size: 34px;
-    color: #264e99;
-}
 header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 10px;
-    gap: 10px;
-  }
-
+    justify-content: space-between;
+}
+.heading-container{
+    display: flex;
+    width:75vw;
+}
+h1 {
+    margin: 20px;
+    font-size: 34px;
+    color: #264e99;
+}
+.navbar-btn{
+    height:6vh;
+    width :8vw;
+    border-radius: 15px;
+    color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: none;
+    cursor: pointer;
+    background: #efbf38;
+}
+.navbar-btn:hover{
+    background-color: #d6a316;
+}
 .nav{
     width: 100%;
     height:12vh;
@@ -40,12 +57,25 @@ header {
     justify-content: space-between;
 }
 .hbtn-div{
-    width: 10vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
 }
 .hbtn{
     padding-left: 10vw;
 }
-
+/* .headerPage {
+    height:700px;
+    background-color: rgb(21, 178, 13);
+    width:100vw;
+} */
+.h2{
+    color: rgb(255, 255, 255);
+}
 .box {
     background-color: #9535f0;
     color: #fff;
@@ -62,7 +92,6 @@ header {
 }
 .btxt{
     width:30%;
-
 }
 .box-htxt{
     padding-bottom: 5vh;
@@ -151,8 +180,8 @@ header {
     font-size: 45px;
 }
 .commingsoon
-{   
-     background-color: #9535f0;
+{
+    background-color: #9535f0;
     color: #fff;
     display: flex;
     align-items: center;
@@ -178,22 +207,5 @@ header {
     padding-left: 2%;
     padding-right: 2%;
     color: rgb(168, 168, 168);
-
 }
 
-.headerPage {
-    height:700px;
-    background-color: rgb(21, 178, 13);
-    width:100vw;
-}
-.h2{
-    color: rgb(255, 255, 255);
-}
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
