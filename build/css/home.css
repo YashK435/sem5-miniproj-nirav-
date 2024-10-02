@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+  background-color: rgba(116, 65, 227, 0.501);
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(59 130 246);
+}
+
+h1:hover {
+  color: rgb(96 165 250);
+}
+
+.text1 {
+  color: rgb(235, 44, 111);
+  text-align: center;
+  font-size: 40px;
+}
+.text2 {
+  color: rgb(255, 173, 125);
+  text-align: center;
+  font-size: 40px;
+}
+.text3 {
+  color: rgb(71, 94, 186);
+  text-align: center;
+  font-size: 40px;
+}
+
+.text4 {
+  color: rgb(206, 206, 206);
+  font-size: 20px;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+/* .buttons {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1 {
+  width: 20%;
+  height: 20%;
+  border-radius: 25px;
+  font-size: 30px;
+  background-color: rgb(255, 0, 0, 0.2);
+}
+.btn1:hover {
+  transform: scale(0.9);
+  /* box-shadow: 0 0 20px 5px rgb(235, 44, 111); 
+}
+
+.btn2 {
+  width: 20%;
+  height: 20%;
+  border-radius: 25px;
+  font-size: 30px;
+}
+.btn2:hover {
+  transform: scale(0.9);
+}
+.btn3 {
+  width: 20%;
+  height: 20%;
+  border-radius: 25px;
+  font-size: 30px;
+}
+.btn3:hover {
+  transform: scale(0.9);
+}
+.btn4 {
+  width: 20%;
+  height: 20%;
+  border-radius: 25px;
+  font-size: 30px;
+}
+
+.btn4:hover {
+  transform: scale(0.9);
+} */
+
+.all svg {
+  display: block;
+  fill: rgb(0, 0, 0, 0.7);
+}
+
+.container {
+  width: 100%;
+  height: 32vh;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.card1 {
+  position: relative;
+  margin-left: 10px;
+  width: 30vw;
+  height: 30vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card1:hover {
+  box-shadow: 0 0 20px 5px rgb(41, 52, 45);
+}
+
+.card2 {
+  margin-left: 10px;
+  width: 30vw;
+  height: 30vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.card2:hover {
+  box-shadow: 0 0 20px 5px rgb(41, 52, 45);
+}
+.card3 {
+  margin-left: 10px;
+  width: 30vw;
+  height: 30vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.card3:hover {
+  box-shadow: 0 0 20px 5px rgb(41, 52, 45);
+}
+.card4 {
+  margin-left: 10px;
+  width: 30vw;
+  height: 30vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.card4:hover {
+  box-shadow: 0 0 20px 5px rgb(41, 52, 45);
+}
+.btn1 {
+  position: absolute;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 5vh;
+  width: 80%;
+  height: 25%;
+  border-radius: 25px;
+  font-size: 20px;
+  font-style: bold;
+  color: white;
+  background-color: rgb(13, 19, 42, 0.6);
+}
+.btn1:hover {
+  transform: scale(0.9);
+}
+.btn2 {
+  position: absolute;
+  align-items: center;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  width: 15%;
+  height: 8%;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(13, 19, 42, 0.6);
+}
+.btn2:hover {
+  transform: scale(0.9);
+}
+.btn3 {
+  position: absolute;
+  align-items: center;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  width: 15%;
+  height: 8%;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(13, 19, 42, 0.6);
+}
+.btn3:hover {
+  transform: scale(0.9);
+}
+.btn4 {
+  position: absolute;
+  align-items: center;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  width: 15%;
+  height: 8%;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(13, 19, 42, 0.6);
+}
+.btn4:hover {
+  transform: scale(0.9);
+}
+.foot {
+  display: flex;
+  align-items: center;
+  gap: 15vw;
+  font-size: 3vh;
+  width: 100%;
+  color: rgba(108, 108, 108, 0.744);
+}
+.about {
+  align-items: center;
+  width: 50%;
+  margin-left: 10px;
+}
+.contact {
+  align-items: center;
+  width: 50%;
+  margin-right: 10px;
+}
