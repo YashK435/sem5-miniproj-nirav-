@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8e8e8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+.logo{
+  display: flex;
+}
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+  background-color: rgba(116, 65, 227, 0.501);
+}
+h1 {
+  font-size: 50px;
+  color: rgb(59 130 246);
+}
+/* .Header-Text{
+width:100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+height:10vh;
+}; */
+h2 {
+  font-size: 50px;
+  color: rgb(31, 31, 31);
+  text-align: center;
+
+
+}
+
+.note-input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input, textarea {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fec20c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:  #fca510;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.note {
+  background-color: #fff;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.note:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(235, 235, 235);
+}
+
+.note h3 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.note p {
+  word-wrap: break-word;
+}
+
+/* Initially hide the button */
+.note button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #fec20c;
+  padding: 2px 5px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+/* Show the button when hovering over the note */
+.note:hover button {
+  display: block;  /* Show button on hover */
+  
+}
